@@ -71,3 +71,17 @@ button {
     display: block;
     height: 90px;
 }
+li {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btn-delete {
+    width: 32px;
+    height: 28px;
+}
+.card-description {
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    white-space: wrap;
+}
