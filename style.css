@@ -74,6 +74,8 @@ button {
 li {
     display: flex;
     flex-direction: row-reverse;
+    position: relative;
+    justify-content: space-between;
 }
 .btn-delete {
     width: 32px;
@@ -81,7 +83,8 @@ li {
 }
 .card-description {
     margin: 0;
-    width: 100%;
+    max-width: 80%;
     text-align: left;
-    white-space: wrap;
+    white-space: initial;
+    overflow: hidden;    
 }
