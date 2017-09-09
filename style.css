@@ -64,3 +64,10 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+.card-placeholder {
+    background: inherit;
+    content: '';
+    border: 1px dashed #ff7573;
+    display: block;
+    height: 90px;
+}

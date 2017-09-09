@@ -99,7 +99,9 @@ $(function() {
     $(".column-card-list")
       .sortable({
         connectWith: ".column-card-list",
-        placeholder: ".card-placeholder"
+        opacity: 0.8,
+        scroll: false,
+        placeholder: "card-placeholder"
       })
       .disableSelection();
   }
